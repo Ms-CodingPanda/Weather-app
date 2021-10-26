@@ -1,0 +1,155 @@
+body {
+  font-family: "Creepster", cursive;
+  background-color: black;
+}
+span {
+  font-size: 20px;
+}
+form {
+  box-shadow: -20px 20px 39px 3px rgba(157, 0, 248, 0.3);
+  margin: auto 20px;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 500;
+  text-shadow: 5px 5px rgb(249, 229, 255);
+  color: black;
+}
+h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: rgb(135, 46, 219);
+  text-shadow: 1px 1px 2px black, 0 0 1em rgba(174, 28, 236, 0.4),
+    0 0 0.2em black;
+}
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  cursor: pointer;
+  color: rgb(153, 0, 255);
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  text-shadow: rgb(172, 142, 252) 1px 0 10px;
+  letter-spacing: 2px;
+}
+
+.container {
+  background: linear-gradient(
+    to top,
+    rgb(251, 194, 235) 0%,
+    rgb(166, 193, 238) 100%
+  );
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  width: 600px;
+  padding: auto 45px;
+  border: solid;
+  border-color: black;
+  border-width: 10px;
+  box-shadow: 0px 0px 34px 30px rgba(174, 28, 236, 0.4);
+}
+.degrees {
+  font-size: 115px;
+  color: black;
+}
+.fc {
+  font-size: 25px;
+  position: relative;
+  bottom: 75px;
+}
+.sun {
+  width: 28%;
+  margin-left: 130px;
+  margin-top: -70px;
+  filter: drop-shadow(10px 5px 4px rgb(172, 142, 252));
+}
+.highLow {
+  margin-left: 60px;
+  font-size: 30px;
+  color: rgb(135, 46, 219);
+  text-shadow: 1px 1px 2px black, 0 0 1em rgba(174, 28, 236, 0.4),
+    0 0 0.2em black;
+  letter-spacing: 1px;
+}
+.current-temp {
+  display: block;
+  padding: 40px 70px;
+}
+.todaysTemp {
+  font-size: 25px;
+  margin-left: 75px;
+  text-shadow: 5px 5px rgb(172, 142, 252);
+}
+.btn {
+  font-size: 20px;
+  background-color: black;
+  -webkit-text-stroke: 1px blueviolet;
+}
+.locate {
+  display: block;
+  background-color: black;
+  border-radius: 3px;
+  border-width: 2px;
+  border-color: black;
+  color: blueviolet;
+  font-size: 27px;
+  padding: auto 10px;
+  -webkit-text-stroke: 1px white;
+  margin-left: 10px;
+}
+.card {
+  background-color: black;
+}
+.card-header {
+  background-color: black;
+  color: #fff;
+  border-color: black;
+}
+.card-body {
+  text-align: center;
+  background-color: rgb(253, 246, 255);
+  border-radius: 2%;
+}
+
+.citySearch {
+  margin-top: 40px;
+}
+
+.weekly {
+  margin: 15px auto 50px;
+  border: solid;
+  border-radius: 2%;
+  letter-spacing: 1px;
+}
+.col-3 {
+  text-align: left;
+  font-size: 30px;
+  text-shadow: 3px 3px rgb(189, 139, 255);
+}
+
+.day {
+  color: rgb(135, 46, 219);
+  font-size: 25px;
+  text-shadow: rgba(174, 28, 236, 0.4) 3px 0 10px;
+  -webkit-text-stroke: 1px black;
+}
+.first {
+  text-align: center;
+}
+.prediction {
+  text-align: center;
+}
