@@ -85,6 +85,14 @@ footer {
     0 0 0.2em black;
   letter-spacing: 1px;
 }
+
+.high {
+  font-size: 30px;
+}
+
+.low {
+  font-size: 30px;
+}
 .current-temp {
   display: block;
   padding: 40px 70px;

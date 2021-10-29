@@ -9,6 +9,7 @@
       src="https://kit.fontawesome.com/ef6d849bb2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <title>Weather</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
@@ -40,8 +41,10 @@
         </div>
         <div class="highLow">
           <div class="row">
-            <div class="col-8">H 80° | L 60°</div>
-            <div class="col-4">Sunny</div>
+            <div class="col-8">
+              H <span class="high"></span>° | L <span class="low"></span>°
+            </div>
+            <div class="col-4" id="weather-icon-name"></div>
           </div>
         </div>
         <br />
@@ -55,6 +58,7 @@
                 placeholder="Enter City..."
                 autofocus="on"
                 id="search-text-input"
+                autocomplete="off"
               />
               <button class="btn btn btn-dark" type="submit" id="button-addon1">
                 search

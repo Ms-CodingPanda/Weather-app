@@ -48,7 +48,19 @@ function cityTemp(response) {
 
   let temperature = Math.round(response.data.main.temp);
   document.querySelector(".degrees").innerHTML = `${temperature}°`;
+
+  let highElement = Math.round(response.data.main.temp_max);
+  document.querySelector(".high").innerHTML = `${highElement}`;
+
+  let LowElement = Math.round(response.data.main.temp_min);
+  document.querySelector(".low").innerHTML = `${LowElement}`;
+
+  let weatherDescription = response.data.weather[0].main;
+  document.querySelector(
+    "#weather-icon-name"
+  ).innerHTML = `${weatherDescription}`;
 }
+
 function citySearch(event) {
   event.preventDefault();
 
@@ -82,13 +94,4 @@ function celsiusTemp(event) {
 }
 
 let temperatureC = document.querySelector("#celsius");
-temperatureC.addEventListener("click", celsiusTemp);
-
-function fahrenheitTemp(event) {
-  event.preventDefault();
-  let degrees = document.querySelector(".degrees");
-  degrees.innerHTML = `75°`;
-}
-
-let temperatureF = document.querySelector("#fahrenheit");
-temperatureF.addEventListener("click", fahrenheitTemp);
+temperatureC.addEventListener("submit", celsiusTemp);
