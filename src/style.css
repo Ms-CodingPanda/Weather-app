@@ -71,14 +71,14 @@ footer {
   position: relative;
   bottom: 75px;
 }
-.sun {
-  width: 28%;
-  margin-left: 130px;
+.icon {
+  width: 34%;
+  margin-left: 120px;
   margin-top: -70px;
   filter: drop-shadow(10px 5px 4px rgb(172, 142, 252));
 }
 .highLow {
-  margin-left: 60px;
+  margin-left: 70px;
   font-size: 30px;
   color: rgb(135, 46, 219);
   text-shadow: 1px 1px 2px black, 0 0 1em rgba(174, 28, 236, 0.4),
