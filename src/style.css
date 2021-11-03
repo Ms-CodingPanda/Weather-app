@@ -133,7 +133,7 @@ footer {
   margin-top: 40px;
 }
 
-.weekly {
+.weekly-forecast {
   margin: 15px auto 50px;
   border: solid;
   border-radius: 2%;
@@ -151,10 +151,6 @@ footer {
   font-size: 25px;
   text-shadow: rgba(174, 28, 236, 0.4) 3px 0 10px;
   -webkit-text-stroke: 1px black;
-}
-
-.first {
-  text-align: center;
 }
 
 #forecast-icon {
