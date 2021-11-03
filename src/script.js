@@ -106,6 +106,9 @@ function cityTemp(response) {
   let LowElement = Math.round(response.data.main.temp_min);
   document.querySelector(".low").innerHTML = `${LowElement}`;
 
+  let windElement = Math.round(response.data.wind.speed);
+  document.querySelector(".wind").innerHTML = `${windElement}`;
+
   let weatherDescription = response.data.weather[0].main;
   document.querySelector(
     "#weather-icon-name"
