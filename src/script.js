@@ -155,6 +155,3 @@ function celsiusTemp(event) {
   let degrees = document.querySelector(".degrees");
   degrees.innerHTML = `24°`;
 }
-
-let temperatureC = document.querySelector("#celsius");
-temperatureC.addEventListener("submit", celsiusTemp);
