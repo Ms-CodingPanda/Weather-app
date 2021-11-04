@@ -149,9 +149,3 @@ let locationButton = document.querySelector(".locate");
 locationButton.addEventListener("click", currentLocation);
 
 search("Denver");
-
-function celsiusTemp(event) {
-  event.preventDefault();
-  let degrees = document.querySelector(".degrees");
-  degrees.innerHTML = `24°`;
-}
